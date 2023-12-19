@@ -1,0 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+header nav ul li {
+    margin-right: 10px;
+}
+.hero-banner{
+    background-color: pink;
+    height: 400px;
+}
